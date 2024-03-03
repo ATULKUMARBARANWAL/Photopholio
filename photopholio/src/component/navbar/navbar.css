@@ -1,0 +1,38 @@
+/* navbar.css */
+
+.navbar {
+    cursor: pointer;
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Spread items horizontally */
+    padding: 0 20px; /* Add padding to the left and right */
+    height: 80px;
+    width: 97%;
+    background-color: aqua;
+}
+
+.navbar img {
+    height: 60px; /* Adjust image height */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+.navbar h1 {
+    margin: 0; /* Remove default margin */
+    margin-right: 5%;
+    font-size: 30px; /* Adjust font size */
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically */
+        align-items: flex-start; /* Align items to the start */
+        height: auto; /* Allow height to adjust */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    .navbar img {
+        margin-bottom: 10px; /* Add space between image and text */
+    }
+}

@@ -1,0 +1,59 @@
+/* AlbumForm.css */
+
+.form {
+    width: 80%;
+    height: auto; /* Adjust height to auto */
+    margin: 2% auto; /* Center the form horizontally */
+    padding: 20px; /* Add some padding */
+    background-color: #8C7394;
+    border-radius: 12px;
+}
+
+.form input {
+    width: 100%; /* Make input full width */
+    height: 2rem;
+    margin: 10px 0; /* Adjust margin */
+    background-color: aquamarine;
+    border-radius: 8px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form h1 {
+    text-align: center; /* Center align the heading */
+}
+
+.realForm {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    justify-content:space-around; /* Space between elements */
+}
+
+.realForm button {
+    width: 20%; /* Adjust button width */
+    height: 2rem;
+    margin-top: 10px; /* Adjust margin */
+    border-radius: 8px;
+    color: black;
+    /* margin-left: 20%; */
+    
+}
+
+
+/* .realForm button:first-child {
+    margin-left: 20%;
+} */
+
+.realForm button:last-child {
+    /* margin-right: 20%; Align last button to the right */
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        width: 90%; /* Adjust width for smaller screens */
+    }
+
+    .realForm button {
+        width: 100%; /* Make buttons full width */
+    }
+}

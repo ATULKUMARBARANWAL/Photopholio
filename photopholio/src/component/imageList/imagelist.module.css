@@ -1,0 +1,29 @@
+.imageList{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 762px){
+    /* Adjusting margin for smaller screens */
+    .imageList{
+        margin-left: 15%;
+    }
+}
+
+.imageCollection{
+    margin-top: 3%;
+    /* margin-left: 35%; */
+    color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+    .imageCollection {
+        margin-left: auto; /* Center the collection horizontally */
+        margin-right: auto;
+        text-align: center; /* Center align text */
+        width: 80%; /* Adjust width */
+    }
+}
+.lightboxoverlay{
+    height: 100%;
+    width: 100%;
+}

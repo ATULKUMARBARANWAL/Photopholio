@@ -1,0 +1,27 @@
+.imageCard{
+    height: 225px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient( 135deg, #698aa1 10%, #5a6b77 100%);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 0px 2px 4px -2px lightgrey;
+}
+.imageCard:hover{
+    background-image: linear-gradient( 135deg, #489ad5 10%, #736EFE 100%);
+}
+.imageBox{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background-image: url("https://cdn.vectorstock.com/i/preview-1x/82/99/no-image-available-like-missing-picture-vector-43938299.jpg");
+    background-size: cover;
+    background-color: white;
+}
+.imageBox img{
+    /* margin-right: 30px; */
+    width: 100%;
+    height: 100%;
+}
